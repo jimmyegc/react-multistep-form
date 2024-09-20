@@ -4,6 +4,7 @@ import { AccountForm } from './components/AccountForm/AccountForm'
 import { AddressForm } from './components/AddressForm/AddressForm'
 import { UserForm } from './components/UserForm/UserForm'
 import { useMultistepForm } from './hooks/useMultistepForm'
+import { ProfilingQuizz } from './components/ProfilingQuizz/ProfilingQuizz'
 
 type FormData = {
   firstName: string,
@@ -53,7 +54,7 @@ function App() {
 
   return (
     <>
-      <div style={{
+      {/* <div style={{
         position: 'relative',
         background: "white",
         border: "1px solid black",
@@ -74,6 +75,8 @@ function App() {
         </form>
         {step}
       </div>
+      {JSON.stringify(data)} */}
+      <ProfilingQuizz />
     </>
   )
 }
