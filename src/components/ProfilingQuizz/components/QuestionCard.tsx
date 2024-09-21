@@ -1,6 +1,3 @@
-import { useProfilingQuizz } from "../useProfilingQuizz"
-
-
 interface QuestionCardProps {
   stepIndex: number
   title: string 
