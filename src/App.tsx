@@ -5,6 +5,7 @@ import { AddressForm } from './components/AddressForm/AddressForm'
 import { UserForm } from './components/UserForm/UserForm'
 import { useMultistepForm } from './hooks/useMultistepForm'
 import { ProfilingQuizz } from './components/ProfilingQuizz/ProfilingQuizz'
+import { AgeCalculator } from './components/AgeCalculator/AgeCalculator'
 
 type FormData = {
   firstName: string,
@@ -77,6 +78,7 @@ function App() {
       </div>
       {JSON.stringify(data)} 
       <ProfilingQuizz />
+      <AgeCalculator />
     </>
   )
 }
