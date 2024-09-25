@@ -6,6 +6,7 @@ import { UserForm } from './components/UserForm/UserForm'
 import { useMultistepForm } from './hooks/useMultistepForm'
 import { ProfilingQuizz } from './components/ProfilingQuizz/ProfilingQuizz'
 import { AgeCalculator } from './components/AgeCalculator/AgeCalculator'
+import { AgeValidation } from './components/AgeValidation/AgeValidation'
 
 type FormData = {
   firstName: string,
@@ -55,7 +56,7 @@ function App() {
 
   return (
     <>
-     <div style={{
+    {/*  <div style={{
         position: 'relative',
         background: "white",
         border: "1px solid black",
@@ -78,7 +79,8 @@ function App() {
       </div>
       {JSON.stringify(data)} 
       <ProfilingQuizz />
-      <AgeCalculator />
+      <AgeCalculator /> */}
+      <AgeValidation />
     </>
   )
 }
